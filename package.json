@@ -1,0 +1,30 @@
+{
+  "name": "stylelint-config-order-66",
+  "version": "1.0.0",
+  "description": "Order your styles with stylelint-order.",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "stylelint-order",
+    "property order"
+  ],
+  "repository": "github:ewert-online/stylelint-config-order-66",
+  "license": "MIT",
+  "author": "Torben Ewert <torben@ewert-online.com>",
+  "main": "./warning.js",
+  "files": [
+    "src/**/*.js",
+    "warning.js",
+    "error.js"
+  ],
+  "scripts": {
+    "format": "prettier --write --list-different ."
+  },
+  "dependencies": {
+    "stylelint-order": "^6.0.4"
+  },
+  "devDependencies": {},
+  "peerDependencies": {
+    "stylelint": ">=16"
+  }
+}
