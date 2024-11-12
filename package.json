@@ -8,7 +8,10 @@
     "stylelint-order",
     "property order"
   ],
-  "repository": "github:ewert-online/stylelint-config-order-66",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewert-online/stylelint-order-66.git"
+  },
   "license": "MIT",
   "author": "Torben Ewert <torben@ewert-online.com>",
   "main": "./warning.js",
