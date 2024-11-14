@@ -1,3 +1,4 @@
+/** @type {(keyof import("csstype").SvgPropertiesHyphen)[]} */
 module.exports = [
   "alignment-baseline",
   "baseline-shift",
