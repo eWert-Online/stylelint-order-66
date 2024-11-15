@@ -1,3 +1,4 @@
+/** @type {(keyof import("csstype").PropertiesHyphen)[]} */
 module.exports = [
   "direction",
   "writing-mode",
