@@ -58,13 +58,13 @@ function getConfig({ severity }) {
           { type: "at-rule", name: "mixin" },
           { type: "at-rule", name: "extend" },
           "declarations",
+          { type: "at-rule", name: "media", hasBlock: true },
           {
             type: "rule",
             selector: /^&::[\w-]+/,
             hasBlock: true,
           },
           "rules",
-          { type: "at-rule", name: "media", hasBlock: true },
         ],
         {
           severity,
